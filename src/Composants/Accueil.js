@@ -1,8 +1,5 @@
 
-import Recherche from './Recherche';
 import React, { Component } from 'react';
-import { Card } from 'semantic-ui-react';
-
 
 
 class Accueil extends Component {
