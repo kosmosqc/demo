@@ -3,4 +3,7 @@
     border: none;
     color: white;
     background-color:#5f43b2 ;
+    width: auto;
+    height: auto;
+    font-size: 25px;
 }

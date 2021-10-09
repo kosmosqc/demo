@@ -11,7 +11,6 @@ import Contact from './Composants/Contact';
 class App extends Component {
 
   render() {
-
     return (
       <div className="twinkling" >
         <React.Fragment >
@@ -35,7 +34,6 @@ class App extends Component {
           </BrowserRouter>
         </React.Fragment>
         </div>
-        
     );
   }
 }

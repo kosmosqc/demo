@@ -11,7 +11,7 @@ function Couleur(props) {
         email&nbsp;&nbsp; &nbsp;&nbsp; : <a href="mailto:kosmosqc@gmail.com">  kosmosqc@gmail.com</a><br />
         Linkedin :<a href="https://www.linkedin.com/in/alain-gionet-8899a1220/"> in</a><br />
         Code &nbsp;&nbsp;&nbsp;&nbsp; : <a href="https://replit.com/repls">Replit </a><br />
-        Git Hub&nbsp;&nbsp; : <a href="https://github.com/"> Git</a>
+        gitHub&nbsp; &nbsp; : <a href="https://github.com/"> Git</a>
       </p>
     </div>
   )
