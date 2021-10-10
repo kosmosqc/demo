@@ -4,7 +4,7 @@
     margin-left: -75px;
     width: 300px;
   }
-  .accueil{
+  .accueil {
     width: 150px;
   }
   .cont {
@@ -18,13 +18,17 @@
   .link {
     font-size: 15px;
   }
+  .list {
+    margin-left: 120px;
+    margin-top: -157px;
+  }
 }
 
 @media only screen and (min-width: 601px) {
   .title {
     font-size: 60px;
   }
-  .accueil{
+  .accueil {
     margin: 165px;
   }
   .cont {
@@ -40,6 +44,10 @@
   }
   .link {
     font-size: 25px;
+  }
+  .list {
+    margin-left: 250px;
+    margin-top: -400px;
   }
 }
 
