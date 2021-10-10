@@ -11,16 +11,17 @@ import Contact from './Composants/Contact';
 class App extends Component {
 
   render() {
+    
     return (
       <div className="twinkling" >
         <React.Fragment >
           <BrowserRouter>
-            <h1 style={{display: "flex", margin : "10px"}}>
+            <h1 style={{display: "flex", margin : "10px" , height: "150px"}}>
               <Menu style={{ backgroundColor: "#5f43b2" }}>
                 <Grid >
                 <Grid.Column  >
-                <Menu.Item as={NavLink} style={{color: "#96c2ff"}} activeStyle={{ fontWeight: "bold", color: "white" }} to="/" exact={true}>Accueil   </Menu.Item>
-                <Menu.Item as={NavLink} style={{color: "#96c2ff"}} activeStyle={{ fontWeight: "bold", color: "white" }} to="/contact" exact={true}>Contact   </Menu.Item>
+                <Menu.Item as={NavLink} style={{color: "#96c2ff", fontSize: "25px"}} activeStyle={{ fontWeight: "bold", color: "white" }} to="/" exact={true}>Accueil   </Menu.Item>
+                <Menu.Item as={NavLink} style={{color: "#96c2ff", fontSize: "25px"}} activeStyle={{ fontWeight: "bold", color: "white" }} to="/contact" exact={true}>Contact   </Menu.Item>
                 </Grid.Column>
                 </Grid>
               </Menu>

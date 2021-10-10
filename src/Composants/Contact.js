@@ -5,13 +5,13 @@ import './contact.css';
 
 function Couleur(props) {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, fontSize: "25px" , textAlign: "left"}} >
+    <div style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, fontSize: "25px" , textAlign: "center"}} >
       <p>
-        Alain Gionet aka Kosmos<br />
-        email&nbsp;&nbsp; &nbsp;&nbsp; : <a href="mailto:kosmosqc@gmail.com">  kosmosqc@gmail.com</a><br />
-        Linkedin :<a href="https://www.linkedin.com/in/alain-gionet-8899a1220/"> in</a><br />
-        Code &nbsp;&nbsp;&nbsp;&nbsp; : <a href="https://replit.com/repls">Replit </a><br />
-        gitHub&nbsp; &nbsp; : <a href="https://github.com/"> Git</a>
+        Alain Gionet @ Kosmos<br />
+         <a hover={{color : "white"}} style={{color: props.textcolor.couleur}} href="mailto:kosmosqc@gmail.com"> E-mail</a><br />
+         <a style={{color: props.textcolor.couleur}} href="https://www.linkedin.com/in/alain-gionet-8899a1220/"> Linkedin</a><br />
+         <a style={{color: props.textcolor.couleur}} href="https://replit.com/repls">Code </a><br />
+         <a style={{color: props.textcolor.couleur}} href="https://github.com/"> Git</a>
       </p>
     </div>
   )
@@ -19,7 +19,7 @@ function Couleur(props) {
 
 function Contact() {
   //exemple de props dans un tableau
-  const text = [{ couleur: "white" }, { couleur: "blue" }, { couleur: "red" }, { couleur: "green" }, { couleur: "orange" }, { couleur: "purple" }]
+  const text = [{couleur: "#96c2ff"}, { couleur: "white" }, { couleur: "blue" }, { couleur: "red" }, { couleur: "green" }, { couleur: "orange" }, { couleur: "purple" }]
 
   //exemple de hook
   const [move, setMove] = useState(20)
