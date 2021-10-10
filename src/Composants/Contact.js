@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from 'react';
 import './contact.css';
-import { Grid } from "semantic-ui-react";
+
 
 
 function Couleur(props) {
