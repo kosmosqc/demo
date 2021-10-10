@@ -11,7 +11,7 @@ class Accueil extends Component {
                     je suis Alain,<br />
                     developpeur web (Full-stack)
                     <br />
-                    <div class="cont" style={{  }}>
+                    <div class="cont">
                         <br /><p class="cont2">Je suis un programmeur junior motivé, débrouillard et je possède une excellente capacité d'analyse et de résolution de problème.<br />
                             <br />Skill&nbsp; <br />
                             Languages &nbsp;&nbsp;: &nbsp; Javascript,&nbsp; Java,&nbsp; C#,&nbsp; C++,&nbsp; PHP,&nbsp; HTML et SQL.<br />

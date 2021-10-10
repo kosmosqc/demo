@@ -1,10 +1,19 @@
 @media only screen and (max-width: 600px) {
     .title{
-        font-size: 10px;
+        font-size: 20px;
+        margin-left: -75px;
+        width: 150px;
     }
     .cont{
-        font-size: 5px;
+        font-size: 10px;
         width: 150px;
+    }
+    .btn{
+      margin-top: 170px;
+      font-size: 15px;
+    }
+    .link{
+      font-size: 15px;
     }
   }
   @media only screen and (min-width: 601px) {
@@ -19,6 +28,13 @@
        margin: "150px";
         text-align: "left";
 }
+.btn{
+
+  font-size: 35px;
+}
+.link{
+  font-size: 25px;
+}
   }
 .btn{
     margin: 2px;
@@ -27,7 +43,7 @@
     background-color:#5f43b2 ;
     width: auto;
     height: auto;
-    font-size: 35px;
+
 }
 a:hover {
     background-color: white;

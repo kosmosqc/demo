@@ -6,7 +6,7 @@ import './contact.css';
 
 function Couleur(props) {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, fontSize: "25px", textAlign: "center" }} >
+    <div class="link" style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, textAlign: "center" }} >
       <p>
         Alain Gionet<br />
         Lien: <br />
@@ -34,7 +34,7 @@ function Contact() {
   }
   return (
     <div>
-      <h1 style={{ display: "flex", justifyContent: "center", marginTop: "50px", fontSize: "15px" }}>
+      <h1 style={{ display: "flex", justifyContent: "center", marginTop: "60px", fontSize: "15px" }}>
         {myConditionIsTrue &&
           <button class="btn" onClick={() => move < 120 ? setMove(move) : setMove(move - 100)}>
             Haut
