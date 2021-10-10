@@ -6,13 +6,13 @@ class Accueil extends Component {
 
     render() {
         return (
-            <div style={{ display: "flex", justifyContent: "left", color: "white", margin: "165px", textAlign: "left" }}>
-                <h1 class="title">Bonjour ,<br />
-                    je suis Alain,<br />
+            <div class="accueil" style={{ display: "flex", justifyContent: "center", color: "white", margin: "165px", textAlign: "left" }}>
+                <h1 class="title">
+                    Alain Gionet,<br />
                     developpeur web (Full-stack)
                     <br />
                     <div class="cont">
-                        <br /><p class="cont2">Je suis un programmeur junior motivé, débrouillard et je possède une excellente capacité d'analyse et de résolution de problème.<br />
+                        <br /><p >Programmeur junior motivé, débrouillard et possède une excellente capacité d'analyse et de résolution de problème.<br />
                             <br />Skill&nbsp; <br />
                             Languages &nbsp;&nbsp;: &nbsp; Javascript,&nbsp; Java,&nbsp; C#,&nbsp; C++,&nbsp; PHP,&nbsp; HTML et SQL.<br />
                             Framework : &nbsp; React,&nbsp; ASP.net<br />

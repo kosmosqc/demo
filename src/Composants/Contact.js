@@ -10,7 +10,7 @@ function Couleur(props) {
       <p>
         Alain Gionet<br />
         Lien: <br />
-        <a hover={{ color: "white" }} style={{ color: props.textcolor.couleur }} href="mailto:kosmosqc@gmail.com"> kosmosqc@gmail.com</a><br />
+        <a hover={{ color: "white" }} style={{ color: props.textcolor.couleur }} href="mailto:kosmosqc@gmail.com"> E-mail</a><br />
         <a style={{ color: props.textcolor.couleur }} href="https://www.linkedin.com/in/alain-gionet-8899a1220/"> Linkedin</a><br />
         <a style={{ color: props.textcolor.couleur }} href="https://replit.com/repls">Code </a><br />
         <a style={{ color: props.textcolor.couleur }} href="https://github.com/"> Git</a>

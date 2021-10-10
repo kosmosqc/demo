@@ -1,50 +1,57 @@
 @media only screen and (max-width: 600px) {
-    .title{
-        font-size: 20px;
-        margin-left: -75px;
-        width: 150px;
-    }
-    .cont{
-        font-size: 10px;
-        width: 150px;
-    }
-    .btn{
-      margin-top: 170px;
-      font-size: 15px;
-    }
-    .link{
-      font-size: 15px;
-    }
+  .title {
+    font-size: 20px;
+    margin-left: -75px;
+    width: 300px;
   }
-  @media only screen and (min-width: 601px) {
-  .title{
-    font-size: 75px;
+  .accueil{
+    width: 150px;
+  }
+  .cont {
+    font-size: 10px;
+    width: 300px;
+  }
+  .btn {
+    margin-top: 170px;
+    font-size: 15px;
+  }
+  .link {
+    font-size: 15px;
+  }
 }
-.cont{
-    font-size: 30px;
+
+@media only screen and (min-width: 601px) {
+  .title {
+    font-size: 60px;
+  }
+  .accueil{
+    margin: 165px;
+  }
+  .cont {
+    font-size: 25px;
     display: "flex";
-     justify-content: "center";
-      color: "white";
-       margin: "150px";
-        text-align: "left";
-}
-.btn{
-
-  font-size: 35px;
-}
-.link{
-  font-size: 25px;
-}
+    justify-content: "center";
+    color: "white";
+    margin: "150px";
+    text-align: "left";
   }
-.btn{
-    margin: 2px;
-    border: none;
-    color: white;
-    background-color:#5f43b2 ;
-    width: auto;
-    height: auto;
-
+  .btn {
+    font-size: 35px;
+  }
+  .link {
+    font-size: 25px;
+  }
 }
+
+.btn {
+  margin: 2px;
+  border: none;
+  color: white;
+  background-color: #5f43b2;
+  width: auto;
+  height: auto;
+}
+
 a:hover {
-    background-color: white;
-  }
+  background-color: white;
+}
