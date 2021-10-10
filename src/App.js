@@ -9,9 +9,9 @@ import Contact from './Composants/Contact';
 
 
 class App extends Component {
-
+  
   render() {
-    
+    document.title = "Alain Gionet"
     return (
       <div className="twinkling" >
         <React.Fragment >
