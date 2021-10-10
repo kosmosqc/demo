@@ -54,7 +54,7 @@ console.log(load)
   else {
     return (
       <div className="back">
-        
+        <div className="twinkling">
           <React.Fragment >
             <BrowserRouter>
               <h1 style={{ display: "flex", margin: "10px", height: h, width: "150px" }}>
@@ -77,6 +77,7 @@ console.log(load)
               </div>
             </BrowserRouter>
           </React.Fragment>
+          </div>
         </div>
       
     );
