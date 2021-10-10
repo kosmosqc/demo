@@ -1,8 +1,22 @@
-
+@media only screen and (max-width: 600px) {
+.tt{
+  font-size: 15px;
+}
+}
+@media only screen and (min-width: 601px) {
+  .tt{
+    font-size: 35px;
+  }
+}
 body {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   
+}
+.tt{
+
+  font-size: 35px;
+  background-color:#5f43b2 ;
 }
 
 * {
