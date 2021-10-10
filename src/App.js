@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Grid, Menu } from 'semantic-ui-react';
 import { BrowserRouter, Route, NavLink, Switch } from 'react-router-dom';
 import { useWindowsSize } from './Composants/useWindowsSize';
