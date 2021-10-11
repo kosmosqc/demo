@@ -14,7 +14,7 @@ class Accueil extends Component {
                     <div class="cont" >
                         <br /><p >Programmeur junior motivé, débrouillard et possède une excellente capacité d'analyse et de résolution de problème.<br />
                             <div>
-                                <br />Skill :&nbsp; <br />
+                                <br /><p style={{color : "#96c2ff"}}>Skill :</p>
                                 <li>
                                     <span>Javascript</span>
                                 </li>
@@ -44,7 +44,7 @@ class Accueil extends Component {
                                 </li>
                             </div>
                             <div class="list">
-                            <br /> Outil :
+                            <br /> <p style={{color : "#96c2ff"}}>Outil :</p>
                                 <li>
                                     <span>Windows 10</span>
                                 </li>

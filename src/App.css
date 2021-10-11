@@ -68,7 +68,7 @@
   }
   .list {
     margin-left: 250px;
-    margin-top: -400px;
+    margin-top: -423px;
   }
   .main {
     position: absolute;
@@ -80,6 +80,7 @@
     height: 100%;
     display: block;
     background: url(main.png) no-repeat top center;
+    background-color: black;
   }
 }
 
