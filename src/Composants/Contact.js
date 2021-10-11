@@ -1,6 +1,6 @@
 import { useState } from "react";
 import React from 'react';
-import './contact.css';
+import '../App.css';
 
 
 
@@ -34,7 +34,7 @@ function Contact() {
   }
   return (
     <div>
-      <h1 style={{ display: "flex", justifyContent: "center", marginTop: "60px", fontSize: "15px" }}>
+      <h1 style={{ display: "flex", justifyContent: "center", marginTop: "-90px", fontSize: "15px" }}>
         {myConditionIsTrue &&
           <button class="btn" onClick={() => move < 120 ? setMove(move) : setMove(move - 100)}>
             Haut

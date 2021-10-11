@@ -15,8 +15,8 @@ function App() {
   const [load, setLoad] = useState(0)
 
   if (largeur < 600) {
-    size = "10px"
-    h = "90px"
+    size = "12px"
+    h = "107px"
   }
 console.log(load)
   document.title = "Alain Gionet"
@@ -33,7 +33,7 @@ console.log(load)
                   <Grid.Column  >
                     <Menu.Item as={NavLink} onClick={() =>load <1 ? setLoad(load - 0): setLoad(load - 1)} style={{ color: "#96c2ff", fontSize: size }} activeStyle={{ fontWeight: "bold", color: "white" }} to="/" exact={true}>Accueil   </Menu.Item>
                     <Menu.Item as={NavLink} onClick={() =>load >0 ? setLoad(load - 0): setLoad(load + 1)} style={{ color: "#96c2ff", fontSize: size }} activeStyle={{ fontWeight: "bold", color: "white" }} to="/about" exact={true}>About   </Menu.Item>
-                    <Menu.Item as={NavLink} style={{ color: "#96c2ff", fontSize: size }} activeStyle={{ fontWeight: "bold", color: "white" }} to="/contact" exact={true}>Contact   </Menu.Item>
+                    <Menu.Item as={NavLink} onClick={() => load >0 ? setLoad(load - 0): setLoad(load + 1)} style={{ color: "#96c2ff", fontSize: size }} activeStyle={{ fontWeight: "bold", color: "white" }} to="/contact" exact={true}>Contact   </Menu.Item>
                   </Grid.Column>
                 </Grid>
               </Menu>
@@ -63,7 +63,7 @@ console.log(load)
                     <Grid.Column  >
                       <Menu.Item as={NavLink} onClick={() => load <1 ? setLoad(load - 0): setLoad(load - 1)} style={{ color: "#96c2ff", fontSize: size }} activeStyle={{ fontWeight: "bold" , color: "white" }} to="/" exact={true}>Accueil   </Menu.Item>
                       <Menu.Item as={NavLink} onClick={() => load >0 ? setLoad(load - 0): setLoad(load + 1)} style={{ color: "#96c2ff", fontSize: size }} activeStyle={{ fontWeight: "bold", color: "white" }} to="/about" exact={true}>About   </Menu.Item>
-                      <Menu.Item as={NavLink} style={{ color: "#96c2ff", fontSize: size }} activeStyle={{ fontWeight: "bold", color: "white" }} to="/contact" exact={true}>Contact   </Menu.Item>
+                      <Menu.Item as={NavLink} onClick={() => load >0 ? setLoad(load - 0): setLoad(load + 1)} style={{ color: "#96c2ff", fontSize: size }} activeStyle={{  color: "white" }} to="/contact" exact={true}>Contact   </Menu.Item>
                     </Grid.Column>
                   </Grid>
                 </Menu>
