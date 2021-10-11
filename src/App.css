@@ -8,8 +8,11 @@
     width: 150px;
   }
   .cont {
-    font-size: 10px;
+    font-size: 13px;
     width: 300px;
+  }
+  h1 {
+    font-size: 20px;
   }
   .btn {
     margin-top: 170px;
@@ -20,7 +23,8 @@
   }
   .list {
     margin-left: 120px;
-    margin-top: -157px;
+    margin-top: -293px;
+    font-size: 13px;
   }
   .tt {
     font-size: 15px;
@@ -53,7 +57,6 @@
     margin: 165px;
   }
   .cont {
-    font-size: 25px;
     display: "flex";
     justify-content: "center";
     color: "white";
@@ -68,7 +71,10 @@
   }
   .list {
     margin-left: 250px;
-    margin-top: -423px;
+    margin-top: -413px;
+  }
+  .cont, .list {
+    font-size: 20px;
   }
   .main {
     position: absolute;
@@ -129,6 +135,7 @@ body {
   z-index: 1;
   animation: move-twink-back 800s linear infinite;
 }
+
 .btn {
   margin: 2px;
   border: none;

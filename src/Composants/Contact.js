@@ -6,14 +6,13 @@ import '../App.css';
 //test
 function Couleur(props) {
   return (
-    <div class="link" style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, textAlign: "center" }} >
+    <div className="link" style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, textAlign: "center" }} >
       <p>
-        Alain Gionet<br />
-        Lien: <br />
+        <p style={{ color: "white", fontSize: "30px"}}>Lien:</p> 
         <a hover={{ color: "white" }} style={{ color: props.textcolor.couleur }} href="mailto:kosmosqc@gmail.com"> E-mail</a><br />
         <a style={{ color: props.textcolor.couleur }} href="https://www.linkedin.com/in/alain-gionet-8899a1220/"> Linkedin</a><br />
-        <a style={{ color: props.textcolor.couleur }} href="https://replit.com/repls">Code </a><br />
-        <a style={{ color: props.textcolor.couleur }} href="https://github.com/"> Git</a>
+        <a style={{ color: props.textcolor.couleur }} href="https://replit.com/@AlainGionet/Tic-tac-toe-1?v=1">Code </a><br />
+        <a style={{ color: props.textcolor.couleur }} href="https://github.com/kosmosqc?tab=repositories"> Git</a>
       </p>
     </div>
   )
@@ -36,14 +35,14 @@ function Contact() {
     <div>
       <h1 style={{ display: "flex", justifyContent: "center", marginTop: "-90px", fontSize: "15px" }}>
         {myConditionIsTrue &&
-          <button class="btn" onClick={() => move < 120 ? setMove(move) : setMove(move - 100)}>
+          <button className="btn" onClick={() => move < 120 ? setMove(move) : setMove(move - 100)}>
             Haut
           </button>
         }
-        <button class="btn" onClick={() => move > 600 ? setMove(move) : setMove(move + 100)}>
+        <button className="btn" onClick={() => move > 600 ? setMove(move) : setMove(move + 100)}>
           Bas
         </button>
-        <button class="btn" onClick={() => i < 5 ? setColor(i + 1) : setColor(i - 5)}>Changer la couleur</button>
+        <button className="btn" onClick={() => i < 5 ? setColor(i + 1) : setColor(i - 5)}>Changer la couleur</button>
       </h1>
 
       <div style={{ marginTop: move + "px" }}>

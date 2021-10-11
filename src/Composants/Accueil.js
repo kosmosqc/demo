@@ -6,14 +6,13 @@ class Accueil extends Component {
 
     render() {
         return (
-            <div class="accueil" style={{ display: "flex", justifyContent: "center", color: "white", margin: "165px", textAlign: "left" }}>
-                <h1 class="title">
-                    Alain Gionet,<br />
-                    developpeur web (Full-stack)
-                    <br />
-                    <div class="cont" >
-                        <br /><p >Programmeur junior motivé, débrouillard et possède une excellente capacité d'analyse et de résolution de problème.<br />
-                            <div>
+            <div className="accueil" style={{ display: "flex", justifyContent: "center", color: "white", margin: "165px", textAlign: "left" }}>
+                <div className="title">
+                <p> Alain Gionet,<br />
+                    developpeur web (Full-stack)</p>
+                    <div className="cont" >
+                        <h1 > <p>Programmeur junior motivé, débrouillard et possède une excellente capacité d'analyse et de résolution de problème.</p>
+                            <div className="cont">
                                 <br /><p style={{color : "#96c2ff"}}>Skill :</p>
                                 <li>
                                     <span>Javascript</span>
@@ -43,7 +42,7 @@ class Accueil extends Component {
                                     <span>Asp.net</span>
                                 </li>
                             </div>
-                            <div class="list">
+                            <div className="list">
                             <br /> <p style={{color : "#96c2ff"}}>Outil :</p>
                                 <li>
                                     <span>Windows 10</span>
@@ -61,9 +60,9 @@ class Accueil extends Component {
                                     <span>Git hub</span>
                                 </li>
                             </div>
-                        </p>
+                        </h1>
                     </div>
-                </h1>
+                </div>
             </div>
         );
     }
