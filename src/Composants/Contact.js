@@ -26,7 +26,7 @@ function Contact() {
   let myConditionIsTrue = false
   const [move, setMove] = useState(20)
   const [i, setColor] = useState(0)
-
+console.log(move)
   if (move >= 120) {
     myConditionIsTrue = true
   }
@@ -38,11 +38,11 @@ function Contact() {
 
       <h1 className="btn-position" style={{ display: "flex", justifyContent: "center", fontSize: "15px" }}>
         {myConditionIsTrue &&
-          <button className="btn" onClick={() => move < 120 ? setMove(move) : setMove(move - 100)}>
+          <button className="btn" onClick={() => move < 120 ? setMove(move) : setMove(move - 200)}>
             Haut
           </button>
         }
-        <button className="btn" onClick={() => move > 600 ? setMove(move) : setMove(move + 100)}>
+        <button className="btn" onClick={() => move > 800 ? setMove(move) : setMove(move + 200)}>
           Bas
         </button>
         <button className="btn" onClick={() => i < 5 ? setColor(i + 1) : setColor(i - 5)}>Changer la couleur</button>
