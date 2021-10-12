@@ -18,7 +18,7 @@ class Accueil extends Component {
                                     <span>Javascript</span>
                                 </li>
                                 <li>
-                                    <span>Java</span>
+                                    <span>React.js</span>
                                 </li>
                                 <li>
                                     <span>C#</span>
@@ -36,7 +36,7 @@ class Accueil extends Component {
                                     <span>SQL</span>
                                 </li>
                                 <li>
-                                    <span>React</span>
+                                    <span>Java</span>
                                 </li>
                                 <li>
                                     <span>Asp.net</span>
@@ -54,7 +54,7 @@ class Accueil extends Component {
                                     <span>Linux</span>
                                 </li>
                                 <li>
-                                    <span>VS code</span>
+                                    <span>Visual code/studio</span>
                                 </li>
                                 <li>
                                     <span>Git hub</span>

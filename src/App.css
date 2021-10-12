@@ -151,26 +151,26 @@
   height: auto;
 }
 
-.social-menu ul {
+.contact-menu ul {
   display: flex;
 }
-.social-menu ul li {
+.contact-menu ul li {
   list-style: none;
   margin: 0 10px;
 }
 
-.social-menu ul li .fas ,.fab {
+.contact-menu ul li .fas ,.fab {
   color: #000000;
   font-size: 25px;
   line-height: 50px;
   transition: .6s;
 }
 
-.social-menu ul li .fa:hover {
+.contact-menu ul li .fa:hover {
   color: #ffffff;
 }
 
-.social-menu ul li a {
+.contact-menu ul li a {
   position: relative;
   display: block;
   width: 50px;
@@ -180,29 +180,24 @@
   text-align: center;
   transition: .6s;
   transform: translate(0, 0px);
-  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
-}
 
-.social-menu ul li a:hover {
+}
+.contact-menu ul li a:hover {
   transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
-
-.social-menu ul li:nth-child(1) a:hover {
-  background-color: #3b5999;
+.contact-menu ul li:nth-child(1) a:hover {
+  background-color: #0077B5;
 }
 
-.social-menu ul li:nth-child(2) a:hover {
+.contact-menu ul li:nth-child(2) a:hover {
   background-color: #55acee;
 }
 
-.social-menu ul li:nth-child(3) a:hover {
+.contact-menu ul li:nth-child(3) a:hover {
   background-color: #e4405f;
 }
 
-.social-menu ul li:nth-child(4) a:hover {
+.contact-menu ul li:nth-child(4) a:hover {
   background-color: #cd201f;
 }
 
-.social-menu ul li:nth-child(1) a:hover {
-  background-color: #0077B5;
-}
