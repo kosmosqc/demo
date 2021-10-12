@@ -10,9 +10,9 @@ function Couleur(props) {
         <p style={{ color: "white", fontSize: "30px" }}>Lien : </p>
       <div className="contact-menu">
         <ul >
-          <li><a href="https://www.linkedin.com/in/alain-gionet-8899a1220/"><i style={{ color: props.textcolor.couleur }} className="fab fa-linkedin"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/alain-gionet-8899a1220/"><i style={{ color: props.textcolor.couleur }} className="fab fa-linkedin-in"></i></a></li>
           <li><a href="mailto:kosmosqc@gmail.com"><i style={{ color: props.textcolor.couleur }} className="fas fa-at"></i></a></li>
-          <li><a href="https://github.com/kosmosqc?tab=repositories"><i style={{ color: props.textcolor.couleur }} className="fab fa-github"></i></a></li>
+          <li><a href="https://github.com/kosmosqc?tab=repositories"><i style={{ color: props.textcolor.couleur }} className="fab fa-git"></i></a></li>
           <li><a href="https://replit.com/@AlainGionet/Tic-tac-toe-1?v=1"><i style={{ color: props.textcolor.couleur }} className="fas fa-gamepad"></i></a></li>
         </ul>
       </div>
