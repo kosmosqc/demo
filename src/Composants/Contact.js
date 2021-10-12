@@ -8,7 +8,7 @@ function Couleur(props) {
   return (
     <div className="link" style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, textAlign: "center" }} >
       <p>
-        <p style={{ color: "white", fontSize: "30px"}}>Lien:</p> 
+        <p style={{ color: "white", fontSize: "30px" }}>Lien:</p>
         <a hover={{ color: "white" }} style={{ color: props.textcolor.couleur }} href="mailto:kosmosqc@gmail.com"> E-mail</a><br />
         <a style={{ color: props.textcolor.couleur }} href="https://www.linkedin.com/in/alain-gionet-8899a1220/"> Linkedin</a><br />
         <a style={{ color: props.textcolor.couleur }} href="https://replit.com/@AlainGionet/Tic-tac-toe-1?v=1">Code </a><br />
@@ -32,8 +32,8 @@ function Contact() {
     myConditionIsTrue = false
   }
   return (
-    <div>
-      <h1 style={{ display: "flex", justifyContent: "center", marginTop: "-90px", fontSize: "15px" }}>
+    <div className="contact">
+      <h1 className="btn-position" style={{ display: "flex", justifyContent: "center", fontSize: "15px" }}>
         {myConditionIsTrue &&
           <button className="btn" onClick={() => move < 120 ? setMove(move) : setMove(move - 100)}>
             Haut

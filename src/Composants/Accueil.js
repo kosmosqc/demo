@@ -6,14 +6,14 @@ class Accueil extends Component {
 
     render() {
         return (
-            <div className="accueil" style={{ display: "flex", justifyContent: "center", color: "white", margin: "165px", textAlign: "left" }}>
+            <div className="accueil" style={{  color: "white",marginLeft : "60px", textAlign: "left" }}>
                 <div className="title">
-                <p> Alain Gionet,<br />
-                    developpeur web (Full-stack)</p>
+                    <p > Alain Gionet,<br />
+                        Développeur web (Full-stack)</p>
                     <div className="cont" >
-                        <h1 > <p>Programmeur junior motivé, débrouillard et possède une excellente capacité d'analyse et de résolution de problème.</p>
+                        <h1 > <p className="st">Programmeur junior motivé, débrouillard et possède une excellente capacité d'analyse et de résolution de problème.</p>
                             <div className="cont">
-                                <br /><p style={{color : "#96c2ff"}}>Skill :</p>
+                                <br /><p style={{ color: "#96c2ff" }}>Skill :</p>
                                 <li>
                                     <span>Javascript</span>
                                 </li>
@@ -43,7 +43,7 @@ class Accueil extends Component {
                                 </li>
                             </div>
                             <div className="list">
-                            <br /> <p style={{color : "#96c2ff"}}>Outil :</p>
+                                <br /> <p style={{ color: "#96c2ff" }}>Outil :</p>
                                 <li>
                                     <span>Windows 10</span>
                                 </li>
