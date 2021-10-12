@@ -14,11 +14,10 @@
     font-size: 13px;
     width: 300px;
   }
- 
   .contact {
     margin-top: -120px;
   }
-  .btn {
+  .contact button {
     margin-top: 170px;
     font-size: 15px;
   }
@@ -49,7 +48,7 @@
     margin-top: 780px;
   }
 }
-
+/* Fin < 600 */
 @media only screen and (min-width: 601px) {
   .tt {
     font-size: 35px;
@@ -67,7 +66,7 @@
     margin: "150px";
     text-align: "left";
   }
-  .btn {
+  .contact button {
     font-size: 35px;
   }
   .link {
@@ -92,20 +91,17 @@
     display: block;
     background: url(main.png) no-repeat top center;
     background-color: black;
-    
   }
-  
+  .main h1 {
+    font-size: 75px;
+  }
+}
+/* Fin > 600 */
 .main h1 {
-  font-size: 75px;
   display: flex;
   justify-content: center;
 }
 
-}
-.main h1 {
-  display: flex;
-  justify-content: center;
-}
 .a body {
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -152,7 +148,7 @@
   animation: move-twink-back 800s linear infinite;
 }
 
-.btn {
+.contact button {
   margin: 2px;
   border: none;
   color: white;
@@ -160,7 +156,11 @@
   width: auto;
   height: auto;
 }
-
+.contact h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
 .contact-menu ul {
   display: flex;
 }

@@ -7,7 +7,7 @@ import '../App.css';
 function Couleur(props) {
   return (
     <div className="link" style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, textAlign: "center", marginTop: "150px" }} >
-        <p style={{ color: "white", fontSize: "30px" }}>Lien : </p>
+      <p style={{ color: "white", fontSize: "30px" }}>Lien : </p>
       <div className="contact-menu">
         <ul >
           <li><a href="https://www.linkedin.com/in/alain-gionet-8899a1220/"><i style={{ color: props.textcolor.couleur }} className="fab fa-linkedin-in"></i></a></li>
@@ -22,11 +22,11 @@ function Couleur(props) {
 
 function Contact() {
 
-  const text = [ { couleur: "black" },{ couleur: "#96c2ff" }, { couleur: "aqua" }, { couleur: "red" }, { couleur: "orange" }, { couleur: "purple" }]
+  const text = [{ couleur: "black" }, { couleur: "#96c2ff" }, { couleur: "aqua" }, { couleur: "red" }, { couleur: "orange" }, { couleur: "purple" }]
   let myConditionIsTrue = false
   const [move, setMove] = useState(20)
   const [i, setColor] = useState(0)
-console.log(move)
+  
   if (move >= 120) {
     myConditionIsTrue = true
   }
@@ -36,16 +36,16 @@ console.log(move)
   return (
     <div className="contact">
 
-      <h1 className="btn-position" style={{ display: "flex", justifyContent: "center", fontSize: "15px" }}>
+      <h1>
         {myConditionIsTrue &&
-          <button className="btn" onClick={() => move < 120 ? setMove(move) : setMove(move - 200)}>
+          <button onClick={() => move < 120 ? setMove(move) : setMove(move - 200)}>
             Haut
           </button>
         }
-        <button className="btn" onClick={() => move > 800 ? setMove(move) : setMove(move + 200)}>
+        <button onClick={() => move > 800 ? setMove(move) : setMove(move + 200)}>
           Bas
         </button>
-        <button className="btn" onClick={() => i < 5 ? setColor(i + 1) : setColor(i - 5)}>Changer la couleur</button>
+        <button onClick={() => i < 5 ? setColor(i + 1) : setColor(i - 5)}>Changer la couleur</button>
       </h1>
 
       <div style={{ marginTop: move + "px" }}>
