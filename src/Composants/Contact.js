@@ -6,21 +6,23 @@ import '../App.css';
 //test
 function Couleur(props) {
   return (
-    <div className="link" style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, textAlign: "center" }} >
-      <p>
+    <div className="link" style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, textAlign: "center", marginTop: "100px" }} >
         <p style={{ color: "white", fontSize: "30px" }}>Lien:</p>
-        <a hover={{ color: "white" }} style={{ color: props.textcolor.couleur }} href="mailto:kosmosqc@gmail.com"> E-mail</a><br />
-        <a style={{ color: props.textcolor.couleur }} href="https://www.linkedin.com/in/alain-gionet-8899a1220/"> Linkedin</a><br />
-        <a style={{ color: props.textcolor.couleur }} href="https://replit.com/@AlainGionet/Tic-tac-toe-1?v=1">Code </a><br />
-        <a style={{ color: props.textcolor.couleur }} href="https://github.com/kosmosqc?tab=repositories"> Git</a>
-      </p>
+      <div className="social-menu">
+        <ul >
+          <li><a href="https://www.linkedin.com/in/alain-gionet-8899a1220/"><i style={{ color: props.textcolor.couleur }} className="fab fa-linkedin"></i></a></li>
+          <li><a href="mailto:kosmosqc@gmail.com"><i style={{ color: props.textcolor.couleur }} className="fas fa-at"></i></a></li>
+          <li><a href="https://github.com/kosmosqc?tab=repositories"><i style={{ color: props.textcolor.couleur }} className="fab fa-github"></i></a></li>
+          <li><a href="https://replit.com/@AlainGionet/Tic-tac-toe-1?v=1"><i style={{ color: props.textcolor.couleur }} className="fas fa-gamepad"></i></a></li>
+        </ul>
+      </div>
     </div>
   )
 }
 
 function Contact() {
 
-  const text = [{ couleur: "#96c2ff" }, { couleur: "aqua" }, { couleur: "green" }, { couleur: "red" }, { couleur: "green" }, { couleur: "orange" }, { couleur: "purple" }]
+  const text = [ { couleur: "black" },{ couleur: "#96c2ff" }, { couleur: "aqua" }, { couleur: "red" }, { couleur: "orange" }, { couleur: "purple" }]
   let myConditionIsTrue = false
   const [move, setMove] = useState(20)
   const [i, setColor] = useState(0)
@@ -33,6 +35,7 @@ function Contact() {
   }
   return (
     <div className="contact">
+
       <h1 className="btn-position" style={{ display: "flex", justifyContent: "center", fontSize: "15px" }}>
         {myConditionIsTrue &&
           <button className="btn" onClick={() => move < 120 ? setMove(move) : setMove(move - 100)}>
