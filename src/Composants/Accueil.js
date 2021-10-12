@@ -59,6 +59,9 @@ class Accueil extends Component {
                                 <li>
                                     <span>Git hub</span>
                                 </li>
+                                <li>
+                                    <span>PhotoShop</span>
+                                </li>
                             </div>
                         </h1>
                     </div>
