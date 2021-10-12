@@ -33,6 +33,9 @@ class Accueil extends Component {
                                     <span>HTML</span>
                                 </li>
                                 <li>
+                                    <span>CSS</span>
+                                </li>
+                                <li>
                                     <span>SQL</span>
                                 </li>
                                 <li>
