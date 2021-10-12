@@ -6,7 +6,7 @@ import '../App.css';
 //test
 function Couleur(props) {
   return (
-    <div className="link" style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, textAlign: "center", marginTop: "100px" }} >
+    <div className="link" style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, textAlign: "center", marginTop: "150px" }} >
         <p style={{ color: "white", fontSize: "30px" }}>Lien : </p>
       <div className="contact-menu">
         <ul >

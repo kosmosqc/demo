@@ -6,7 +6,7 @@ class Accueil extends Component {
 
     render() {
         return (
-            <div className="accueil" style={{  color: "white",marginLeft : "60px", textAlign: "left" }}>
+            <div className="accueil" style={{ color: "white", marginLeft: "60px", textAlign: "left" }}>
                 <div className="title">
                     <p > Alain Gionet,<br />
                         Développeur web (Full-stack)</p>
