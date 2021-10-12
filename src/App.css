@@ -45,7 +45,7 @@
     height: 100%;
     display: block;
     background: url(main.png) no-repeat center;
-    background-size: 380%;
+    background-size: 400%;
   }
   .click {
     margin-top: 780px;
@@ -94,6 +94,16 @@
     background: url(main.png) no-repeat top center;
     background-color: black;
   }
+}
+
+.main h1 {
+  padding-bottom: 20px;
+  border: bottom 1px solid white;
+  border-bottom-color: white;
+  font-size: 75px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .a body {
@@ -154,12 +164,13 @@
 .contact-menu ul {
   display: flex;
 }
+
 .contact-menu ul li {
   list-style: none;
   margin: 0 10px;
 }
 
-.contact-menu ul li .fas ,.fab {
+.contact-menu ul li .fas, .fab {
   color: #000000;
   font-size: 25px;
   line-height: 50px;
@@ -180,11 +191,12 @@
   text-align: center;
   transition: .6s;
   transform: translate(0, 0px);
-
 }
+
 .contact-menu ul li a:hover {
   transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
+
 .contact-menu ul li:nth-child(1) a:hover {
   background-color: #0077B5;
 }
@@ -200,4 +212,3 @@
 .contact-menu ul li:nth-child(4) a:hover {
   background-color: #cd201f;
 }
-

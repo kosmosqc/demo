@@ -24,10 +24,10 @@ function App() {
   if (load === 0) {
     return (
       <div className="main">
-        <div  >
+        <div>
           <React.Fragment >
             <BrowserRouter>
-              <h1 style={{ display: "flex", height: h, width: "150px", margin: "10px" }}>
+              <div style={{ display: "flex", height: h, width: "150px", margin: "10px" }}>
                 <Menu style={{ backgroundColor: "#5f43b2" }}>
                   <Grid >
                     <Grid.Column  >
@@ -37,7 +37,8 @@ function App() {
                     </Grid.Column>
                   </Grid>
                 </Menu>
-              </h1>
+              </div>
+              <h1 style={{color: "white"}}>Alain Gionet</h1>
               <div>
                 <Switch>
                   <Route path="/" exact={true} />
