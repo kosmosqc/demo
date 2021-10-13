@@ -1,5 +1,6 @@
 import '../App.css';
-function Accueil() {
+
+const Accueil = () => {
     return(
         <div>
           <h1 style={{ color: "white" }}>Alain Gionet</h1>  

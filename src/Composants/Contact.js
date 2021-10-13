@@ -23,21 +23,21 @@ function Couleur(props) {
 function Contact() {
 
   const text = [{ couleur: "black" }, { couleur: "#96c2ff" }, { couleur: "aqua" }, { couleur: "red" }, { couleur: "orange" }, { couleur: "purple" }]
-  let myConditionIsTrue = false
+  let test = false
   const [move, setMove] = useState(20)
   const [i, setColor] = useState(0)
   
   if (move >= 120) {
-    myConditionIsTrue = true
+    test = true
   }
   else {
-    myConditionIsTrue = false
+    test = false
   }
   return (
     <div className="contact">
 
       <h1>
-        {myConditionIsTrue &&
+        {test &&
           <button onClick={() => move < 120 ? setMove(move) : setMove(move - 200)}>
             Haut
           </button>

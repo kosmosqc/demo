@@ -23,6 +23,7 @@
   .cont {
     font-size: 13px;
     width: 300px;
+    display: table-cell;
   }
   .contact {
     margin-top: -120px;
@@ -36,7 +37,7 @@
   }
   .list {
     margin-left: 120px;
-    margin-top: -434px;
+    margin-top: -432px;
     font-size: 13px;
   }
   .tt {
@@ -72,11 +73,8 @@
     margin-top: -240px;
   }
   .cont {
-    display: "flex";
-    justify-content: "center";
-    color: "white";
-    margin: "150px";
-    text-align: "left";
+    width: 300px;
+    display: table-cell;
   }
   .contact button {
     font-size: 35px;
