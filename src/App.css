@@ -7,8 +7,18 @@
   .st {
     font-size: 15px;
   }
-  .accueil {
+  .btnmain {
+    margin: 10px;
+    display: flex;
+    justify-Content: center;
+    height: 107;
     width: 150px;
+    margin: 10px;
+    margin-left: -30px;
+  }
+  .btnmainx {
+    color: #96c2ff;
+    font-size: 12px;
   }
   .cont {
     font-size: 13px;
@@ -48,7 +58,9 @@
     margin-top: 780px;
   }
 }
+
 /* Fin < 600 */
+
 @media only screen and (min-width: 601px) {
   .tt {
     font-size: 35px;
@@ -95,8 +107,23 @@
   .main h1 {
     font-size: 75px;
   }
+  .btnmain {
+    margin: 10px;
+    display: flex;
+    justify-Content: center;
+    height: 225;
+    width: 150px;
+    margin: 10px;
+    color: #96c2ff;
+  }
+  .btnmainx {
+    color: #96c2ff;
+    font-size: 25px;
+  }
 }
+
 /* Fin > 600 */
+
 .main h1 {
   display: flex;
   justify-content: center;
@@ -142,6 +169,11 @@
   z-index: 0;
 }
 
+.accueil {
+  display: flex;
+  justify-content: center;
+}
+
 .twinkling {
   background: transparent url(twinkling.png) repeat top center;
   z-index: 1;
@@ -156,11 +188,13 @@
   width: auto;
   height: auto;
 }
+
 .contact h1 {
   display: flex;
   justify-content: center;
   font-size: 15px;
 }
+
 .contact-menu ul {
   display: flex;
 }
