@@ -3,11 +3,10 @@ import React from 'react';
 import '../App.css';
 
 
-//test
+//show
 function Couleur(props) {
   return (
     <div className="link" style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, textAlign: "center", marginTop: "150px" }} >
-      <p style={{ color: "white", fontSize: "30px" }}>Lien : </p>
       <div className="contact-menu">
         <ul >
           <li><a href="https://www.linkedin.com/in/alain-gionet-8899a1220/"><i style={{ color: props.textcolor.couleur }} className="fab fa-linkedin-in"></i></a></li>
@@ -23,21 +22,21 @@ function Couleur(props) {
 function Contact() {
 
   const text = [{ couleur: "black" }, { couleur: "#96c2ff" }, { couleur: "aqua" }, { couleur: "red" }, { couleur: "orange" }, { couleur: "purple" }]
-  let test = false
+  let show = false
   const [move, setMove] = useState(20)
   const [i, setColor] = useState(0)
   
   if (move >= 120) {
-    test = true
+    show = true
   }
   else {
-    test = false
+    show = false
   }
   return (
     <div className="contact">
 
       <h1>
-        {test &&
+        {show &&
           <button onClick={() => move < 120 ? setMove(move) : setMove(move - 200)}>
             Haut
           </button>

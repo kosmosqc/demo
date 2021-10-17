@@ -11,6 +11,7 @@ function About() {
                     Développeur web (Full-stack)</p>
                 <div >
                     <h1 > <p className="st">Programmeur junior motivé, débrouillard et possède une excellente capacité d'analyse et de résolution de problème.</p>
+                    
                         <div className="cont">
                             <br /><p style={{ color: "#96c2ff" }}>Skill :</p>
                             <ul>
@@ -27,7 +28,7 @@ function About() {
                             </ul>
                         </div>
                         <div className="cont">
-                            <br /> <p style={{ color: "#96c2ff" }}>Outil :</p>
+                            <br/> <p style={{ color: "#96c2ff" }}>Outil :</p>
                             <ul>
                                 <li>Windows 10</li>
                                 <li>Powershell</li>
@@ -37,8 +38,17 @@ function About() {
                                 <li>PhotoShop</li>
                             </ul>
                         </div>
+                        <div className="cont">
+                            <br/> <p style={{ color: "#96c2ff" }}>Passion :</p>
+                            <ul>
+                                <li>Informatique</li>
+                                <li>Astronomie</li>
+                                <li>Science</li>
+                            </ul>
+                        </div>
                     </h1>
                 </div>
+               
             </div>
         </div>
     );
