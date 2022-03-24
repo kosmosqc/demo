@@ -2,7 +2,7 @@ import { useState } from "react";
 import React from 'react';
 import '../App.css';
 import palette from "../color-palette.png"
-
+import main from "../main.png"
 //show
 function Couleur(props) {
   const [isShown, setIsShown ] = useState(false);
@@ -20,7 +20,7 @@ function Couleur(props) {
       <div className="contact-menu">
 
         <ul >
-          <li><a onMouseOver={() => setText(text1)} onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} href="https://addons.mozilla.org/en-US/firefox/addon/rounded-price-for-amazon/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search"><i style={{ color: props.textcolor.couleur }} className="fab fa-bolt"></i></a></li>
+          <li><a onMouseOver={() => setText(text1)} onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} href="https://addons.mozilla.org/en-US/firefox/addon/rounded-price-for-amazon/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search"><i style={{ color: props.textcolor.couleur }} className="fas fa-bolt"></i></a></li>
           <li><a onMouseOver={() => setText("Linkedin")} onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} href="https://www.linkedin.com/in/alain-gionet-8899a1220/"><i style={{ color: props.textcolor.couleur }} className="fab fa-linkedin-in"></i></a></li>
           <li><a onMouseOver={() => setText("kosmosqc@gmail.com")} onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} href="mailto:kosmosqc@gmail.com"><i style={{ color: props.textcolor.couleur }} className="fas fa-at"></i></a></li>
           <li><a onMouseOver={() => setText("Git hub")} onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} href="https://github.com/kosmosqc?tab=repositories"><i style={{ color: props.textcolor.couleur }} className="fab fa-git"></i></a></li>
@@ -53,17 +53,21 @@ function Contact() {
     <div className="contact">
 
       <h1>
+      
         {disableButton}
         <button onClick={() => move > 800 ? setMove(move) : setMove(move + 200)}>
           ↓
         </button>
         <button onClick={() => i < 5 ? setColor(i + 1) : setColor(i - 5)}><img src={palette} alt="" style={{ height: "35px", width: "35px" }} /></button>
-
+        
       </h1>
-
+      <img style={{ marginLeft : "40%" , width : "20%"}} src={main} ></img>
+      
       <div style={{ marginTop: move + "px" }}>
         <Couleur textcolor={text[i]} />
+        
       </div>
+      
     </div>
   )
 }

@@ -2,6 +2,8 @@ import './App.css';
 import React, { useState } from 'react';
 import { Grid, Menu } from 'semantic-ui-react';
 import { BrowserRouter, Route, NavLink, Switch } from 'react-router-dom';
+import { createBrowserHistory } from "history";
+
 
 
 import Accueil from './Composants/Accueil';
@@ -11,6 +13,11 @@ import About from './Composants/About';
 
 function App() {
   const [load, setLoad] = useState(["main", ""])
+
+  const history = createBrowserHistory()
+
+  //console.log(history.location.pathname)
+
 
   document.title = "Alain Gionet"
   return (
@@ -31,7 +38,7 @@ function App() {
             </div>
             <div>
               <Switch>
-                <Route path="/" component={Accueil} exact={true} />
+                <Route path="/" setLoad component={Accueil} exact={true} />
                 <Route path="/About" component={About} exact={true} />
                 <Route path="/Contact" component={Contact} exact={true} />
               </Switch>
