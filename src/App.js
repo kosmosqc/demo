@@ -2,9 +2,6 @@ import './App.css';
 import React, { useState } from 'react';
 import { Grid, Menu } from 'semantic-ui-react';
 import { BrowserRouter, Route, NavLink, Switch } from 'react-router-dom';
-import { createBrowserHistory } from "history";
-
-
 
 import Accueil from './Composants/Accueil';
 import Contact from './Composants/Contact';
