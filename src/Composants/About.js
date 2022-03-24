@@ -7,7 +7,7 @@ function About() {
 
 
         <div class="container">
-            <h3 style={{color : "white" , textAlign : 'center' , fontSize : "26px"}}> Alain Gionet<br />
+            <h3> Alain Gionet<br />
                 Programmeur (Full-stack) motivé, débrouillard et possède une excellente capacité d'analyse et de résolution de problème.</h3>
             <div class="col">
                 <h2 class="titulo">Skill</h2>
@@ -31,7 +31,7 @@ function About() {
                     <li><span class="greenline win10"></span><em>Windows 10</em></li>
                     <li><span class="greenline powershell"></span><em>Powershell</em></li>
                     <li><span class="greenline linux"></span><em>Linux</em></li>
-                    <li><span class="greenline visual"></span><em>Visual code/studio</em></li>
+                    <li><span class="greenline visual"></span><em>Visual code</em></li>
                     <li><span class="greenline git"></span><em>Git Hub</em></li>
                     <li><span class="greenline ps"></span><em>PhotoShop</em></li>
                 </ul>

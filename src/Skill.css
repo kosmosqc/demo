@@ -1,16 +1,91 @@
-h2 {
-	font-size: 2.2em;
-  font-weight: normal;
-	padding: 10px 0 16px 0;
-  margin: 0 0 30px;
-	text-align:center;
-	color:#ffffff;
-  text-shadow: 1px 1px 5px #000, 0 0 10px #5f43b2, 0 0 20px #5f43b2;
-  background:#000;
-	border-radius:2px;
-	border: 1px solid #5f43b2;  
-  box-shadow: 0px 0px 50px -8px #5f43b2;
+@media only screen and (max-width: 600px) {
+	h2 {
+		font-size: 15px;
+	  font-weight: normal;
+		padding: 10px 0 16px 0;
+	  margin: 0 0 30px;
+		text-align:center;
+		color:#ffffff;
+	  text-shadow: 1px 1px 5px #000, 0 0 10px #5f43b2, 0 0 20px #5f43b2;
+	  background:#000;
+		border-radius:2px;
+		border: 1px solid #5f43b2;  
+	  box-shadow: 0px 0px 50px -8px #5f43b2;
+	}
+	h3{
+		color: white;
+		text-align: center;
+		font-size: 15px;
+	}
+	.skill li { 
+		margin-bottom:40px; 
+		background:#030303; 
+		height:6px; 
+		border-radius:3px; 
+		border-left:1px solid #111; 
+		border-top:1px solid #111; 
+		border-right:1px solid #333; 
+		border-bottom:1px solid #333;  
+	}
+	
+	.skill li em { 
+		position:relative; 
+	  font-style: normal;
+	  font-size: 10px;
+	  text-align: center;
+	  color:#dedede;
+		top:-28px;
+	}
 }
+@media only screen and (min-width:901px) {
+	.container {
+		width: 90%;
+		height: 1100px;
+		  padding:5%;
+		margin-top: -90px; 
+		overflow: hidden;
+	}
+	h2 {
+		font-size: 2.2em;
+	  font-weight: normal;
+		padding: 10px 0 16px 0;
+	  margin: 0 0 30px;
+		text-align:center;
+		color:#ffffff;
+	  text-shadow: 1px 1px 5px #000, 0 0 10px #5f43b2, 0 0 20px #5f43b2;
+	  background:#000;
+		border-radius:2px;
+		border: 1px solid #5f43b2;  
+	  box-shadow: 0px 0px 50px -8px #5f43b2;
+	}
+	h3{
+		color: white;
+		text-align: center;
+		font-size: 26px;
+		margin-top: -70px;
+	}
+	.skill li { 
+		margin-bottom:60px; 
+		background:#030303; 
+		height:6px; 
+		border-radius:3px; 
+		border-left:1px solid #111; 
+		border-top:1px solid #111; 
+		border-right:1px solid #333; 
+		border-bottom:1px solid #333;  
+	}
+	
+	.skill li em { 
+		position:relative; 
+	  font-style: normal;
+	  font-size: 18px;
+	  text-align: center;
+	  color:#dedede;
+		top:-28px;
+	}
+}
+
+
 h2.plataformas {
   border: 1px solid #5f43b2;  
   box-shadow: 0px 0px 50px -8px #5f43b2;
@@ -25,13 +100,7 @@ h2.programas {
   text-shadow: 1px 1px 5px #000, 0 0 10px #5f43b2, 0 0 20px #5f43b2;
 }
  
-.container {
-	width: 90%;
-    height: 1000px;
-  padding:5%;
-	margin-top: -90px; 
-	overflow: hidden;
-}
+
 
 .col {
 	width: 23%;
@@ -48,25 +117,7 @@ h2.programas {
 	padding-top:30px;
 }
 
-.skill li { 
-	margin-bottom:70px; 
-	background:#030303; 
-	height:6px; 
-	border-radius:3px; 
-	border-left:1px solid #111; 
-	border-top:1px solid #111; 
-	border-right:1px solid #333; 
-	border-bottom:1px solid #333;  
-}
 
-.skill li em { 
-	position:relative; 
-  font-style: normal;
-  font-size: 18px;
-  text-align: center;
-  color:#dedede;
-	top:-28px;
-}
 
 .blueline { 
 	height: 3px; 
