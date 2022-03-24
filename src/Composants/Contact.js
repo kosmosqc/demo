@@ -61,7 +61,7 @@ function Contact() {
         <button onClick={() => i < 5 ? setColor(i + 1) : setColor(i - 5)}><img src={palette} alt="" style={{ height: "35px", width: "35px" }} /></button>
         
       </h1>
-      <img style={{ marginLeft : "40%" , width : "20%"}} src={main} ></img>
+      <img style={{ marginLeft : "40%" , width : "20%"}} src={main} alt="" ></img>
       
       <div style={{ marginTop: move + "px" }}>
         <Couleur textcolor={text[i]} />

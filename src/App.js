@@ -14,11 +14,6 @@ import About from './Composants/About';
 function App() {
   const [load, setLoad] = useState(["main", ""])
 
-  const history = createBrowserHistory()
-
-  //console.log(history.location.pathname)
-
-
   document.title = "Alain Gionet"
   return (
     <div className={load[0]}>
