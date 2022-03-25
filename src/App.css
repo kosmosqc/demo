@@ -1,4 +1,8 @@
 @media only screen and (max-width: 600px) {
+  .img{
+    margin-left: 38%;
+    width: 25%;
+  }
   .title {
     font-size: 20px;
     margin-left: -75px;
@@ -34,6 +38,7 @@
   }
   .link {
     font-size: 15px;
+    margin-top: 20%;
   }
   .main {
     position: absolute;
@@ -52,6 +57,10 @@
 /* Fin < 600 */
 
 @media only screen and (min-width: 601px) {
+  .img{
+    margin-left: 45%;
+    width: 10%;
+  }
   .tt {
     font-size: 35px;
   }
@@ -71,7 +80,7 @@
   }
   .link {
     font-size: 25px;
-    margin-top: 150px;
+    margin-top: 2%;
   }
   .main {
     position: absolute;

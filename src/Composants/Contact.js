@@ -15,7 +15,7 @@ function Couleur(props) {
   
   return (
 
-    <div className="link" style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, textAlign: "center", marginTop: "150px" }} >
+    <div className="link" style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, textAlign: "center" }} >
 
       <div className="contact-menu">
 
@@ -61,7 +61,7 @@ function Contact() {
         <button onClick={() => i < 5 ? setColor(i + 1) : setColor(i - 5)}><img src={palette} alt="" style={{ height: "35px", width: "35px" }} /></button>
         
       </h1>
-      <img style={{ marginLeft : "45%" , width : "10%" }} src={main} alt="" ></img>
+      <img className="img"  src={main} alt="" ></img>
       
       <div style={{ marginTop: move + "px" }}>
         <Couleur textcolor={text[i]} />
