@@ -2,8 +2,8 @@ import '../App.css';
 
 const Accueil = () => {
   return (
-    <div>
-      <h1 style={{ color: "white" }}>Alain Gionet</h1>
+    <div  style={{ color: "white" , textAlign : "center", marginTop : "5%"}}>
+      <h1>Alain Gionet</h1>
     </div>
   )
 }

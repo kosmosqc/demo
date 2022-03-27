@@ -5,14 +5,14 @@ import palette from "../color-palette.png"
 import main from "../main.png"
 //show
 function Couleur(props) {
-  const [isShown, setIsShown ] = useState(false);
-  const [text, setText ] = useState(" ");
- 
- 
-  var  text1 = " Petit projet personnel : une extension en version beta pour firefox qui permet d'arrondir les prix sur le site d'Amazon. Example : 3.99$ devient 4$ "
-  
+  const [isShown, setIsShown] = useState(false);
+  const [text, setText] = useState(" ");
 
-  
+
+  var text1 = " Petit projet personnel : une extension en version beta pour firefox qui permet d'arrondir les prix sur le site d'Amazon. Example : 3.99$ devient 4$ "
+
+
+
   return (
 
     <div className="link" style={{ display: 'flex', justifyContent: 'center', color: props.textcolor.couleur, textAlign: "center" }} >
@@ -28,7 +28,7 @@ function Couleur(props) {
         </ul>
         {isShown && (
           <div>
-            <p style={{ color : "white", marginTop : "20px"}}>
+            <p style={{ color: "white", marginTop: "20px" }}>
               {text}
 
             </p>
@@ -53,21 +53,21 @@ function Contact() {
     <div className="contact">
 
       <h1>
-      
+
         {disableButton}
         <button onClick={() => move > 800 ? setMove(move) : setMove(move + 200)}>
           ↓
         </button>
         <button onClick={() => i < 5 ? setColor(i + 1) : setColor(i - 5)}><img src={palette} alt="" style={{ height: "35px", width: "35px" }} /></button>
-        
+
       </h1>
-      <img className="img"  src={main} alt="" ></img>
-      
+      <img className="img" src={main} alt="" ></img>
+
       <div style={{ marginTop: move + "px" }}>
         <Couleur textcolor={text[i]} />
-        
+
       </div>
-      
+
     </div>
   )
 }
