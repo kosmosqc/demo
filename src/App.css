@@ -221,9 +221,13 @@
 }
 
 .contact-menu ul li:nth-child(3) a:hover {
-  background-color: #e4405f;
+  background-color: #55acee;
 }
 
 .contact-menu ul li:nth-child(4) a:hover {
-  background-color: #cd201f;
+  background-color: #55acee;
+}
+
+.contact-menu ul li:nth-child(5) a:hover {
+  background-color: #55acee;
 }

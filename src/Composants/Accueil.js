@@ -1,4 +1,4 @@
-import '../App.css';
+import '../Skill.css';
 
 const Accueil = () => {
   return (
